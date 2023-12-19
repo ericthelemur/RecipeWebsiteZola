@@ -1,0 +1,19 @@
+{% macro bbreadcrumb() %}
+{% if section %}
+{% set page = section %}
+{% endif %}
+
+<!-- Don't trigger on top level -->
+{% if page.ancestors | length > 1 %}
+<p id="path">
+    {% for parent in page.ancestors %}
+    {% if not loop.first %} <!-- Ignore first -->
+    {% set s = get_section(path=parent, include_pages=false) %}
+    <a href="{{ s.permalink | safe }}">{{ s.title | truncate(length=25) }}</a> /
+    {% endif %}
+    {% endfor %}
+    <!-- Include actual page -->
+    {{ page.title | truncate(length=25)}}
+</p>
+{% endif %}
+{% endmacro bbreadcrumb %}
