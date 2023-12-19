@@ -12,10 +12,10 @@ jobs:
       - name: Install SSH key
         uses: shimataro/ssh-key-action@v2
         with:
-          key: ${{ secrets.SITES_SSH_PRIVATE_KEY }}
+          key: ${{ secrets.SSH_KEY }}
           name: id_rsa
-          known_hosts: ${{ secrets.SITES_SSH_KNOWN_HOSTS }}
-          config: ${{ vars.SITES_SSH_CONFIG }}
+          known_hosts: ${{ secrets.KNOWN_HOSTS }}
+          config: ${{ vars.CONFIG }}
           if_key_exists: fail
       - name: Update Server
         run: ssh uwcs "~/RecipeWebsiteZola/build.sh"
