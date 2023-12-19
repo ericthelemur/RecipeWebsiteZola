@@ -38,7 +38,7 @@
             <h2>Ingredients:</h2>
             <ul>
                 {% for ing in page.extra.ingredients %}
-                <li>{{ ing | safe }}</li>
+                <li>{{ ing | markdown(inline=true) | safe }}</li>
                 {% endfor %}
             </ul>
         </div>

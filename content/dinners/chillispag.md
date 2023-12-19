@@ -18,13 +18,13 @@ ingredients = [
   "[1½] tbsp. tomato purée",
   "[1] tsp. oregano",
   "Pepper",
-  "### Chilli:",
+  "**Chilli:**",
   "Stock cube (beef, optional)",
   "Chilli powder",
   "[½] can of beans (kidney/baked)",
   "[½] can of chickpeas",
   "100g rice pp",
-  "### Spaghetti",
+  "**Spaghetti**",
   "75g dried spaghetti"
 ]
 +++
