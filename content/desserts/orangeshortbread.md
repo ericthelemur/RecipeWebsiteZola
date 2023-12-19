@@ -1,15 +1,17 @@
 +++
 title = "Orange Shortbread"
+
 [extra]
 makes = "[8] biscuits"
 carbs = ""
 prep = "20 mins"
 cook = "30 mins"
+
 ingredients = [
-    "[160]g self-raising flour (plus extra for dusting)",
-    "zest of [1] orange",
-    "[110]g butter",
-    "[60]g granulated sugar (plus more for sprinkling)"
+  "[160]g self-raising flour (plus extra for dusting)",
+  "zest of [1] orange",
+  "[110]g butter",
+  "[60]g granulated sugar (plus more for sprinkling)"
 ]
 +++
 
