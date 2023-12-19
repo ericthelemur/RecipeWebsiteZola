@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     {% block header %}
-    <title>{{ page.title }} - Owen's Recipes</title>
+    <title>{% if page %}{{ page.title }}{% else %}{{ section.title }}{% endif %} - Owen's Recipes</title>
     <link rel="stylesheet" type="text/css" href="{{ get_url(path='CSS/main.css', cachebust=true) }}">
     <link rel="stylesheet" type="text/css" href="{{ get_url(path='CSS/dropdown.css', cachebust=true) }}">
     <script type="text/javascript" src="{{ get_url(path='JS/IngredientMult.js', cachebust=true) }}"></script>
