@@ -9,7 +9,7 @@
     {% for parent in page.ancestors %}
     {% if not loop.first %} <!-- Ignore first -->
     {% set s = get_section(path=parent, include_pages=false) %}
-    <a href="{{ s.permalink | safe }}">{{ s.title | truncate(length=25) }}</a> /
+    <a href="{{ get_url(path=parent) }}">{{ s.title | truncate(length=25) }}</a> /
     {% endif %}
     {% endfor %}
     <!-- Include actual page -->
@@ -22,14 +22,14 @@
 
 {% macro ddsec(section) %}
 <div class="drop">
-    <a class="drop-button">{{section.title}}</a>
+    <a class="drop-button">{{ section.title }} ></a>
     <div class="drop-content">
         {% for path in section.subsections %}
         {% set s = get_section(path=path, include_pages=true) %}
         {{ parts::ddsec(section=s) }}
         {% endfor %}
         {% for child in section.pages %}
-        <a class='recipeLink' href='{{ child.permalink }}'>{{ child.title }}</a>
+        <a class='recipeLink' href='{{ get_url(path=child.path) }}'>{{ child.title }}</a>
         {% endfor %}
     </div>
 </div>

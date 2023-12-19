@@ -4,7 +4,7 @@
 
 {% block content %}
 <nav id="dropdown-nav" class="no-print">
-    <a class="button" href="/">&#127968; Home</a>
+    <a class="button" href="{{ get_url(path='@/_index.md') }}">&#127968; Home</a>
     {{ parts::navbar() }}
 </nav>
 
@@ -14,12 +14,10 @@
     <a class='button' onclick="changeVal(1)">+ Serving</a>
     <a class='button' onclick="changeVal(-1)">- Serving</a>
 
-    {# <a class='button' href="/measurements.html">Measurements</a> #}
-
     <div class="drop up">
         <a class="drop-button">Print</a>
         <div class="drop-content">
-            <a class='recipeLink' href="/printall">Print All</a>
+            <a class='recipeLink' href="{{ get_url(path='@/printall.md') }}">Print All</a>
             <a class='recipeLink' onclick="window.print()">Print Recipe</a>
         </div>
     </div>
