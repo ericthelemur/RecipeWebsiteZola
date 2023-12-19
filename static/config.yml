@@ -1,0 +1,36 @@
+backend:
+  name: github
+  repo: ericthelemur/RecipeWebsiteZola
+  base_url: https://cms-auth.containers.uwcs.co.uk
+
+media_folder: "static/images"
+collections:
+  - name: "recipes"
+    label: "Recipes"
+    label_singular: 'Recipe'
+    folder: "content"
+    create: true
+    format: toml-frontmatter
+    
+    filter:
+      field: "path"
+      pattern: '.*[^_][^i][^n][^d][^e][^x]$'
+
+    nested:
+      depth: 100
+      summary: '{{title}}'
+
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - label: Extra
+        name: extra
+        widget: "object"
+        fields:
+          - {label: "Serves", name: "serves", widget: "string", required: false}
+          - {label: "Makes", name: "makes", widget: "string", required: false}
+          - {label: "Prep Time", name: "prep", widget: "string", required: false}
+          - {label: "Cook Time", name: "cook", widget: "string", required: false}
+          - {label: "Ingredients", name: "ingredients", widget: "list", required: true, default: []}
+        
+      - {label: "Body", name: "body", widget: "markdown"}
+    meta: { path: { widget: string, label: 'Path', index_file: 'index' } }
