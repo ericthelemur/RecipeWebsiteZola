@@ -19,32 +19,27 @@
 {% endmacro bbreadcrumb %}
 
 
-{% macro serves_input(val) %}
-<input type="number" placeholder="{{ val | safe }}" value="{{ val | safe }}" min="1" name="servingsNumb"
-    id="servingsNumb" class="no-print" style="width: 50px;" onchange="refreshQuantities()">
-<p id="print-quantities" class="only-print">{{ val | safe }}</p>
+
+{% macro ddsec(section) %}
+<div class="drop">
+    <a class="drop-button">{{section.title}}</a>
+    <div class="drop-content">
+        {% for path in section.subsections %}
+        {% set s = get_section(path=path, include_pages=true) %}
+        {{ parts::ddsec(section=s) }}
+        {% endfor %}
+        {% for child in section.pages %}
+        <a class='recipeLink' href='{{ child.permalink }}'>{{ child.title }}</a>
+        {% endfor %}
+    </div>
+</div>
 {% endmacro %}
 
-{% macro serves_insert(quant_str) %}
-{% set val = quant_str | regex_replace(pattern=`.*\[(\d+)\].*`, rep=`$1`) %}
-{% set inp = self::serves_input(val=val) %}
-{{ quant_str | regex_replace(pattern=`\[(\d+)\]`, rep=inp) | safe }}
-{% endmacro %}
+{% macro navbar() %}
+{% set index = get_section(path='_index.md') %}
 
-
-{% macro serves_wrapper(quant_str, title) %}
-{{ title | safe }}:
-{% if quant_str is matching(`^\d+$`) %}
-{{ self::serves_input(val=quant_str) }}
-{% else %}
-{{ self::serves_insert(quant_str=quant_str) }}
-{% endif %}
-{% endmacro %}
-
-{% macro serves(page) %}
-{% if page.extra.serves %}
-{{ self::serves_wrapper(quant_str=page.extra.serves, title="Serves") }}
-{% elif page.extra.makes %}
-{{ self::serves_wrapper(quant_str=page.extra.makes, title="Makes") }}
-{% endif %}
+{% for path in index.subsections %}
+{% set s = get_section(path=path, include_pages=true) %}
+{{ parts::ddsec(section=s) }}
+{% endfor %}
 {% endmacro %}

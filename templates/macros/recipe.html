@@ -1,47 +1,36 @@
 {% import "macros/parts.html" as parts %}
+{% import "macros/serves.html" as serves %}
 
 {% macro recipe(page) %}
-<div id="title-section">
-    <p id="path">{{ parts::bbreadcrumb() }}</p>
-    <h1 id="title">{{ page.title }}</h1>
-    <table style="width: 100%;" id="infotable">
-        <tbody>
-            <tr>
-                <td>{{ parts::serves(page=page) }}</td>
-                <td>Prep Time: {{ page.extra.prep }}</td>
-            </tr>
-            <tr>
-                <td>Carbs: {{ page.extra.carbs }}</td>
-                <td>Cook Time: {{ page.extra.cook }}</td>
-            </tr>
-        </tbody>
-    </table>
-</div>
-<br>
-<div id="ingredients-section">
-    <h2>Ingredients:</h2>
-    <ul>
-        {% for ing in page.extra.ingredients %}
-        <li>{{ ing | markdown(inline=true) | safe }}</li>
-        {% endfor %}
-    </ul>
-</div>
-<div id="method-section">
-    <h2>Method:</h2>
-    <ol>{{ page.content | safe }}</ol>
-</div>
-<div id="print-buttons" style="float: right">
-    <a class='button' onclick="changeVal(1)">+ Serving</a>
-    <a class='button' onclick="changeVal(-1)">- Serving</a>
-
-    {# <a class='button' href="/measurements.html">Measurements</a> #}
-
-    <div class="drop up">
-        <a class="drop-button">Print</a>
-        <div class="drop-content">
-            <a class='recipeLink' href="printall">Print All</a>
-            <a class='recipeLink' onclick="window.print()">Print Recipe</a>
-        </div>
+<div class="recipe">
+    <div id="title-section">
+        <p id="path">{{ parts::bbreadcrumb() }}</p>
+        <h1 id="title">{{ page.title }}</h1>
+        <table style="width: 100%;" id="infotable">
+            <tbody>
+                <tr>
+                    <td>{{ serves::serves(page=page) }}</td>
+                    <td>Prep Time: {{ page.extra.prep }}</td>
+                </tr>
+                <tr>
+                    <td>Carbs: {{ page.extra.carbs }}</td>
+                    <td>Cook Time: {{ page.extra.cook }}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <br>
+    <div id="ingredients-section">
+        <h2>Ingredients:</h2>
+        <ul>
+            {% for ing in page.extra.ingredients %}
+            <li>{{ ing | markdown(inline=true) | safe }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+    <div id="method-section">
+        <h2>Method:</h2>
+        <ol>{{ page.content | safe }}</ol>
     </div>
 </div>
 {% endmacro %}
