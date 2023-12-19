@@ -7,15 +7,15 @@ carbs = "70g pp"
 prep = "-"
 cook = "15 mins"
 
-ingredients = [
-  "[300]g pasta",
-  "[250]g passata ([½] pack)",
-  "[1] clove garlic",
-  "[1] dsp ([10]ml) olive oil",
-  "[1] tsp oregano",
-  "pepper",
-  "[2] dsp ([20]ml) milk"
-]
+ingredients = """
+- [300]g pasta
+- [250]g passata ([½] pack)
+- [1] clove garlic
+- [1] dsp ([10]ml) olive oil
+- [1] tsp oregano
+- pepper
+- [2] dsp ([20]ml) milk
+"""
 +++
 
 1. Cook the pasta for 10-12 mins (check packet) in boiling water and open the passata pack.

@@ -7,14 +7,14 @@ carbs = ""
 prep = ""
 cook = ""
 
-ingredients = [
-  "[700]g potatoes",
-  "[375]g/[12] pork (chipolata) sausages",
-  "[240]g peas",
-  "[10]g butter",
-  "[2] tbsp. ([30]ml) milk",
-  "Pepper"
-]
+ingredients = """
+- [700]g potatoes
+- [375]g/[12] pork (chipolata) sausages
+- [240]g peas
+- [10]g butter
+- [2] tbsp. ([30]ml) milk
+- Pepper
+"""
 +++
 
 1. Wash and peel the potatoes. Cut into chunks of 1-2cm on each side. Put sausages in oven for 20 mins (check packet)

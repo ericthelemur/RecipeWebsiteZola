@@ -7,15 +7,15 @@ carbs = ""
 prep = "5 mins"
 cook = "20-25 mins"
 
-ingredients = [
-  "[150]g plain flour",
-  "[2] tsp. baking powder",
-  "[1] tbsp. sugar",
-  "[1] egg",
-  "[300]ml milk",
-  "[2] tbsp. vegetable oil",
-  "Pinch of salt"
-]
+ingredients = """
+- [150]g plain flour
+- [2] tsp. baking powder
+- [1] tbsp. sugar
+- [1] egg
+- [300]ml milk
+- [2] tbsp. vegetable oil
+- Pinch of salt
+"""
 +++
 
 1. Sift the flour and baking powder into a large bowl, then stir in the sugar and salt.

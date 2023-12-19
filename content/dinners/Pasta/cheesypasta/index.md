@@ -7,14 +7,14 @@ carbs = "70g pp"
 prep = ""
 cook = ""
 
-ingredients = [
-  "[200]g macaroni",
-  "[15]g butter",
-  "[10]g flour",
-  "[100]ml milk",
-  "[150]g cheddar cheese",
-  "pepper"
-]
+ingredients = """
+- [200]g macaroni
+- [15]g butter
+- [10]g flour
+- [100]ml milk
+- [150]g cheddar cheese
+- pepper
+"""
 +++
 
 1. Cook the macaroni for 10-12 mins (check packet) in boiling water. Measure other ingredients and grate the cheese.

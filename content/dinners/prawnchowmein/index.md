@@ -7,20 +7,20 @@ carbs = "100g with 150g rice (cooked)"
 prep = "20 mins"
 cook = "15 mins"
 
-ingredients = [
-  "[1] clove of garlic",
-  "[1]-[2] chunks of fresh root ginger",
-  "[½] red chilli or chilli powder",
-  "[2] tbsp. dark soy sauce",
-  "[1] tbsp. tomato purée",
-  "[200]g prawns",
-  "[2] blocks dried egg noodles",
-  "[¼] head of broccoli",
-  "[2] carrots",
-  "[1] tbsp vegetable oil",
-  "[300]g pack beansprouts",
-  "[2] tbsp. oyster sauce"
-]
+ingredients = """
+- [1] clove of garlic
+- [1]-[2] chunks of fresh root ginger
+- [½] red chilli or chilli powder
+- [2] tbsp. dark soy sauce
+- [1] tbsp. tomato purée
+- [200]g prawns
+- [2] blocks dried egg noodles
+- [¼] head of broccoli
+- [2] carrots
+- [1] tbsp vegetable oil
+- [300]g pack beansprouts
+- [2] tbsp. oyster sauce
+"""
 +++
 
 1. To make the sauce, crush the garlic, grate the ginger and chop the chilli. Mix together with the soy sauce and tomato purée.

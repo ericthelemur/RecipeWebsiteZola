@@ -7,23 +7,23 @@ carbs = ""
 prep = "20 mins"
 cook = "35 mins"
 
-ingredients = [
-  "<h3>For the cake:</h3>",
-  "[150]g plain flour",
-  "[2] tbsp cocoa powder",
-  "[1] tsp. baking powder",
-  "[½] tsp. bicarbonate of soda",
-  "[125]g granulated sugar",
-  "[2] tbsp golden syrup",
-  "[2] medium sized eggs, beaten",
-  "[130]ml sunflower oil",
-  "[150]ml plain yoghurt",
-  "<h3>For the icing</h3>",
-  "[25]g unsalted butter",
-  "[150]g icing sugar (more if needed)",
-  "[1] tbsp. cocoa powder",
-  "milk or water"
-]
+ingredients = """
+### For the cake:
+- [150]g plain flour
+- [2] tbsp cocoa powder
+- [1] tsp. baking powder
+- [½] tsp. bicarbonate of soda
+- [125]g granulated sugar
+- [2] tbsp golden syrup
+- [2] medium sized eggs, beaten
+- [130]ml sunflower oil
+- [150]ml plain yoghurt
+### For the icing
+- [25]g unsalted butter
+- [150]g icing sugar (more if needed)
+- [1] tbsp. cocoa powder
+- milk or water
+"""
 +++
 
 Pre­heat the oven to 180°C. Grease and line two 18cm sandwich tins.

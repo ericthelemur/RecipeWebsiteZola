@@ -8,13 +8,13 @@ carbs = ""
 prep = "5 mins"
 cook = "15-20 mins"
 
-ingredients = [
-  "[1] egg",
-  "[50]ml milk",
-  "Cinnamon",
-  "Sunflower Oil",
-  "[2] slices of bread"
-]
+ingredients = """
+- [1] egg
+- [50]ml milk
+- Cinnamon
+- Sunflower Oil
+- [2] slices of bread
+"""
 +++
 
 1. Break egg into a wide bowl. Add the milk and a few good shakes of cinnamon

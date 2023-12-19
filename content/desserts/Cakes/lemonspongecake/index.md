@@ -7,21 +7,21 @@ carbs = ""
 prep = "20 mins"
 cook = "35 mins"
 
-ingredients = [
-  "<h3>For the cake:</h3>",
-  "[250]g butter, softened",
-  "[200]g caster sugar",
-  "[250]g self-raising flour",
-  "[4] medium eggs",
-  "[2] tbsp. milk",
-  "Finely zested rind of [2] lemons",
-  "<h3>For the filling:</h3>",
-  "[2] level tbsp lemon curd",
-  "<h3>For the icing:</h3>",
-  "[50]g unsalted butter, softened",
-  "[150]g icing sugar",
-  "[2] level tbsp. lemon curd"
-]
+ingredients = """
+### For the cake:
+- [250]g butter, softened
+- [200]g caster sugar
+- [250]g self-raising flour
+- [4] medium eggs
+- [2] tbsp. milk
+- Finely zested rind of [2] lemons
+### For the filling:
+- [2] level tbsp lemon curd
+### For the icing:
+- [50]g unsalted butter, softened
+- [150]g icing sugar
+- [2] level tbsp. lemon curd
+"""
 +++
 
 Set the oven to gas mark 4 or 180°C. Grease and line two 18cm sandwich tins.

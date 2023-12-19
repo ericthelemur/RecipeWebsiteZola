@@ -8,14 +8,14 @@ carbs = "30g pp (2 cakes)"
 prep = ""
 cook = ""
 
-ingredients = [
-  "[600]-[700]g Potatoes",
-  "[2] 120g tins of Sardines",
-  "[10]g Butter",
-  "Milk",
-  "Pepper",
-  "Olive Oil"
-]
+ingredients = """
+- [600]-[700]g Potatoes
+- [2] 120g tins of Sardines
+- [10]g Butter
+- Milk
+- Pepper
+- Olive Oil
+"""
 +++
 
 1. Wash and peel the potatoes, then cut them into chunks (approx. the size of an egg). Boil potatoes in a pan of water for 10-15 mins until soft.

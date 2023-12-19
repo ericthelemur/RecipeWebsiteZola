@@ -6,19 +6,19 @@ serves= "4"
 carbs = "55g pp"
 prep = "10 mins"
 cook = "30 mins"
-ingredients = [
-  "1 tbsp. olive oil",
-  "[400]g beef or lamb mince",
-  "[1] onion, diced",
-  "[2] garlic cloves, chopped",
-  "[100]g carrot, grated",
-  "[2]x 400g chopped tomatoes",
-  "[1] tbsp. tomato purée",
-  "[300]g dried spaghetti",
-  "[1] tsp. oregano",
-  "Pepper",
-  "Pinch of salt (optional)"
-]
+ingredients = """
+- 1 tbsp. olive oil
+- [400]g beef or lamb mince
+- [1] onion, diced
+- [2] garlic cloves, chopped
+- [100]g carrot, grated
+- [2]x 400g chopped tomatoes
+- [1] tbsp. tomato purée
+- [300]g dried spaghetti
+- [1] tsp. oregano
+- Pepper
+- Pinch of salt (optional)
+"""
 +++
 
 1. Add the oil to a saucepan at a medium heat. Add the onions and fry gently for 5-6 minutes, until softened. Add the garlic and cook for another 2 minutes. Then add the mince.

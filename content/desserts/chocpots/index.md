@@ -7,12 +7,12 @@ carbs = ""
 prep = "10 mins + 2hrs in fridge"
 cook = "none"
 
-ingredients = [
-  "[200]g good-quality milk chocolate, chopped",
-  "[200]ml double cream",
-  "[2] large egg yolks",
-  "[100]ml whipping/whipped cream for topping"
-]
+ingredients = """
+- [200]g good-quality milk chocolate, chopped
+- [200]ml double cream
+- [2] large egg yolks
+- [100]ml whipping/whipped cream for topping
+"""
 +++
 
 1. Break the chocolate up into a heatproof bowl. Heat the cream in a saucepan until it just boils, then pour over the chocolate. Stir until smooth.

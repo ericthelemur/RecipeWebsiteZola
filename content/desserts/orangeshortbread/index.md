@@ -7,12 +7,12 @@ carbs = ""
 prep = "20 mins"
 cook = "30 mins"
 
-ingredients = [
-  "[160]g self-raising flour (plus extra for dusting)",
-  "zest of [1] orange",
-  "[110]g butter",
-  "[60]g granulated sugar (plus more for sprinkling)"
-]
+ingredients = """
+- [160]g self-raising flour (plus extra for dusting)
+- zest of [1] orange
+- [110]g butter
+- [60]g granulated sugar (plus more for sprinkling)
+"""
 +++
 
 1. Put the flour, orange zest and butter in a large bowl and knead until it resembles fine breadcrumbs (if it is too thick, add some flour). Add the sugar, mix gently and bring the dough together with your hands.

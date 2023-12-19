@@ -34,7 +34,16 @@ collections:
           - {label: "Makes", name: "makes", widget: "string", required: false}
           - {label: "Prep Time", name: "prep", widget: "string", required: false}
           - {label: "Cook Time", name: "cook", widget: "string", required: false}
-          - {label: "Ingredients", name: "ingredients", widget: "list", required: true, default: []}
+          - label: "Ingredients"
+            name: "ingredients"
+            widget: "markdown"
+            required: true
+            default: ""
+            minimal: true
+            buttons: ["bold", "heading-three", "bulleted-list"]
+            editor_components: []
+            modes: ["raw"]
+
         
       - {label: "Method", name: "body", widget: "markdown"}
     meta: { path: { widget: string, label: 'Path', index_file: 'index' } }

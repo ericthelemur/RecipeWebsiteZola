@@ -8,25 +8,25 @@ carbs = "55g pp"
 prep = "10 mins"
 cook = "30 mins"
 
-ingredients = [
-  "1 tbsp. olive oil",
-  "[500]g beef or lamb mince",
-  "[1½]-[2] onion, diced",
-  "[2] garlic cloves, chopped",
-  "[1] carrot, grated",
-  "[1½]x 400g chopped tomatoes",
-  "[1½] tbsp. tomato purée",
-  "[1] tsp. oregano",
-  "Pepper",
-  "**Chilli:**",
-  "Stock cube (beef, optional)",
-  "Chilli powder",
-  "[½] can of beans (kidney/baked)",
-  "[½] can of chickpeas",
-  "100g rice pp",
-  "**Spaghetti**",
-  "75g dried spaghetti"
-]
+ingredients = """
+- 1 tbsp. olive oil
+- [500]g beef or lamb mince
+- [1½]-[2] onion, diced
+- [2] garlic cloves, chopped
+- [1] carrot, grated
+- [1½]x 400g chopped tomatoes
+- [1½] tbsp. tomato purée
+- [1] tsp. oregano
+- Pepper
+### Chilli:
+- Stock cube (beef, optional)
+- Chilli powder
+- [½] can of beans (kidney/baked)
+- [½] can of chickpeas
+- 100g rice pp
+### Spaghetti
+- 75g dried spaghetti
+"""
 +++
 
 1. Add the oil to a saucepan at a medium heat. Add the onions and fry gently for 5-6 minutes, until softened. Add the garlic and cook for another 2 minutes. Then add the mince.

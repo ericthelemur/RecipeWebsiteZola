@@ -7,16 +7,16 @@ carbs = "70g pp"
 prep = ""
 cook = ""
 
-ingredients = [
-  "[1] onion, diced",
-  "[3]-[4] rashers of bacon (or ham), diced",
-  "[200]g dried spaghetti",
-  "[1] egg",
-  "[1] egg yolk",
-  "olive oil",
-  "pepper",
-  "[20]g grated parmesan/cheddar, plus more to serve"
-]
+ingredients = """
+- [1] onion, diced
+- [3]-[4] rashers of bacon (or ham), diced
+- [200]g dried spaghetti
+- [1] egg
+- [1] egg yolk
+- olive oil
+- pepper
+- [20]g grated parmesan/cheddar, plus more to serve
+"""
 +++
 
 1. Pan-fry the onion over a medium heat a splash of olive oil. After a few minutes, add the bacon and continue to fry for a few more minutes.

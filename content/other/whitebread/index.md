@@ -7,14 +7,14 @@ carbs = ""
 prep = "20 mins + rising (~1hr)"
 cook = "15-20 mins"
 
-ingredients = [
-  "[400]g strong white flour",
-  "[¼] tsp. salt",
-  "[2] tsp. yeast",
-  "[1] tbsp. olive oil",
-  "[350]ml warm water",
-  "[2] tbsp. flour for dusting"
-]
+ingredients = """
+- [400]g strong white flour
+- [¼] tsp. salt
+- [2] tsp. yeast
+- [1] tbsp. olive oil
+- [350]ml warm water
+- [2] tbsp. flour for dusting
+"""
 +++
 
 1. Grease tin (bread) or baking tray (rolls) with oil.

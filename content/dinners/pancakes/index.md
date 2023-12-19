@@ -8,14 +8,14 @@ carbs = ""
 prep = "10 mins"
 cook = "30 mins"
 
-ingredients = [
-  "[100]g plain flour",
-  "pinch of salt",
-  "[1] egg, beaten",
-  "[300]ml milk",
-  "~[50]ml vegetable oil",
-  "+ toppings"
-]
+ingredients = """
+- [100]g plain flour
+- pinch of salt
+- [1] egg, beaten
+- [300]ml milk
+- ~[50]ml vegetable oil
+- + toppings
+"""
 +++
 
 1. Sieve the flour and salt into a bowl, make a well in the centre and add the egg and half the milk. Beat the egg and milk together with the flour and salt.

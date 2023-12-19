@@ -8,22 +8,22 @@ carbs = ""
 prep = "10 mins + 1 hr rising"
 cook = "15-20 mins"
 
-ingredients = [
-  "[225]g strong white flour",
-  "[½] tsp. salt",
-  "[2] tsp. yeast",
-  "[1] tbsp. olive oil",
-  "[175]ml warm water",
-  "[2] tbsp. flour for dusting",
-  "<h3>Topping:</h3>",
-  "[200]g tomato passata",
-  "[2] tbsp. tomato purée",
-  "[2] tsp. dried oregano",
-  "Ground black pepper",
-  "[2] slices of ham",
-  "[150]g mozzarella",
-  "[2] tbsp. olive oil"
-]
+ingredients = """
+- [225]g strong white flour
+- [½] tsp. salt
+- [2] tsp. yeast
+- [1] tbsp. olive oil
+- [175]ml warm water
+- [2] tbsp. flour for dusting
+### Topping:
+- [200]g tomato passata
+- [2] tbsp. tomato purée
+- [2] tsp. dried oregano
+- Ground black pepper
+- [2] slices of ham
+- [150]g mozzarella
+- [2] tbsp. olive oil
+"""
 +++
 
 1. Mix the flour, salt and yeast in a bowl. Add the oil and water. Stir to form a soft dough.

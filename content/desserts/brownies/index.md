@@ -6,15 +6,7 @@ makes = "[16]"
 carbs = ""
 prep = "15 mins"
 cook = "30 mins"
-
-ingredients = [
-  "[250]g butter",
-  "[200]g chocolate",
-  "[50]g cocoa powder",
-  "[100]g self-raising flour",
-  "[250]g sugar",
-  "[3] eggs"
-]
+ingredients = "* \\[250]g butter\n* \\[200]g chocolate\n* \\[50]g cocoa powder\n* \\[100]g self-raising flour\n* \\[250]g sugar\n* \\[3] eggs\n* \\[27] tests"
 +++
 
 1. Preheat the oven to 180°C/160°C fan. Break up the butter and chocolate into a heatproof bowl, and melt over a pan of simmering water.

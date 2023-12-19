@@ -7,15 +7,15 @@ carbs = "-"
 prep = "-"
 cook = "-"
 
-ingredients = [
-  "[25]g butter",
-  "[3] medium cooking apples",
-  "[1] lemon, to zest",
-  "[500]g puff pastry",
-  "[50]g golden caster sugar",
-  "[1] egg",
-  "[1] tbsp. milk"
-]
+ingredients = """
+- [25]g butter
+- [3] medium cooking apples
+- [1] lemon, to zest
+- [500]g puff pastry
+- [50]g golden caster sugar
+- [1] egg
+- [1] tbsp. milk
+"""
 +++
 
 1. Preheat the oven to 200°C/180°C fan.
