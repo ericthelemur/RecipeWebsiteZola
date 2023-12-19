@@ -13,7 +13,7 @@
 
 <body>
     <div id="container">
-        <nav id="dropdown-nav">
+        <nav id="dropdown-nav" class="no-print">
             <a class="button" href="/">&#127968; Home</a>
             {% include 'navbar.html' %}
         </nav>
@@ -50,7 +50,7 @@
             <a class='button' onclick="changeVal(1)">+ Serving</a>
             <a class='button' onclick="changeVal(-1)">- Serving</a>
 
-            <a class='button' href="/measurements.html">Measurements</a>
+            {# <a class='button' href="/measurements.html">Measurements</a> #}
 
             <div class="drop up">
                 <a class="drop-button">Print</a>

@@ -1,3 +1,8 @@
+body {
+    font-family: "Segoe UI", sans-serif;
+    font-size: 12px;
+}
+
 h1 {
     font-family: "Segoe UI Semibold", sans-serif;
     font-size: 28px;
@@ -20,7 +25,6 @@ h3 {
 
 p, li, td, a {
     font-family: "Segoe UI", sans-serif;
-    font-size: 12px;
 }
 
 td {
@@ -89,6 +93,7 @@ a.button {
     border: 0;
     margin: 0 3px;
 }
+
 a.button:hover {
     background-color: grey;
 }
@@ -109,7 +114,8 @@ a.button:hover {
 @media print {
     #print-buttons {display: none;}
     .no-print {display: none;}
-    .only-print {display: inline;}
+    .only-print {display: inline;}  
+    a {text-decoration: none; color: inherit}
 }
 
 /*@media only screen and (max-device-width: 355px) {
