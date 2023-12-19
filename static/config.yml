@@ -1,7 +1,11 @@
+# backend:
+#  name: github
+#  repo: ericthelemur/RecipeWebsiteZola
+#  base_url: https://cms-auth.containers.uwcs.co.uk
+local_backend: true
+
 backend:
-  name: github
-  repo: ericthelemur/RecipeWebsiteZola
-  base_url: https://cms-auth.containers.uwcs.co.uk
+  name: git-gateway
 
 media_folder: "static/images"
 collections:
@@ -14,7 +18,7 @@ collections:
     
     filter:
       field: "path"
-      pattern: '.*[^_][^i][^n][^d][^e][^x]$'
+      pattern: '^.*(?<!_index|_index.md)$'
 
     nested:
       depth: 100
@@ -32,5 +36,5 @@ collections:
           - {label: "Cook Time", name: "cook", widget: "string", required: false}
           - {label: "Ingredients", name: "ingredients", widget: "list", required: true, default: []}
         
-      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Method", name: "body", widget: "markdown"}
     meta: { path: { widget: string, label: 'Path', index_file: 'index' } }
