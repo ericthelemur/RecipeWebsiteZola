@@ -23,11 +23,7 @@
             <table style="width: 100%;" id="infotable">
                 <tbody>
                     <tr>
-                        <td>Serves: <input type="number" placeholder="{{ page.extra.serves | safe }}"
-                                value="{{ page.extra.serves | safe }}" min="1" name="servingsNumb" id="servingsNumb"
-                                class="no-print" style="width: 50px;" onchange="refreshQuantities()">
-                            <p id="print-quantities" class="only-print">Serves: {{ page.extra.serves | safe }}</p>
-                        </td>
+                        <td>{{ parts::serves(page=page) }}</td>
                         <td>Prep Time: {{ page.extra.prep }}</td>
                     </tr>
                     <tr>
@@ -54,8 +50,7 @@
             <a class='button' onclick="changeVal(1)">+ Serving</a>
             <a class='button' onclick="changeVal(-1)">- Serving</a>
 
-
-            <a class='button' href="measurements.html">Measurements</a>
+            <a class='button' href="/measurements.html">Measurements</a>
 
             <div class="drop up">
                 <a class="drop-button">Print</a>
