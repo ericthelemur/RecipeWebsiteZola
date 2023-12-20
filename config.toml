@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "https://owen.uwcs.co.uk/recipes"
+base_url = "https://owen.sites.uwcs.co.uk/recipes"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
