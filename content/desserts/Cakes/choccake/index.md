@@ -3,7 +3,7 @@ title = "Chocolate Cake"
 
 [extra]
 serves= "12"
-carbs = ""
+carbs = "10 g"
 prep = "20 mins"
 cook = "35 mins"
 
