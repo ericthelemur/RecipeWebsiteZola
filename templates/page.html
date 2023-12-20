@@ -11,6 +11,7 @@
 {{ recipe::recipe(page=page) }}
 
 <div id="print-buttons" style="float: right">
+    <a class='button' href="{{ get_url(path='admin/index.html') }}">Edit</a>
     <a class='button' onclick="changeVal(1)">+ Serving</a>
     <a class='button' onclick="changeVal(-1)">- Serving</a>
 
