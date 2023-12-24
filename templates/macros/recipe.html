@@ -10,11 +10,11 @@
             <tbody>
                 <tr>
                     <td>{{ serves::serves(page=page) }}</td>
-                    <td>Prep Time: {{ page.extra.prep }}</td>
+                    <td>Prep Time: {{ page.extra.prep | default(value="-")}}</td>
                 </tr>
                 <tr>
-                    <td>Carbs: {{ page.extra.carbs }}</td>
-                    <td>Cook Time: {{ page.extra.cook }}</td>
+                    <td>Carbs: {{ page.extra.carbs | default(value="-") }}</td>
+                    <td>Cook Time: {{ page.extra.cook | default(value="-") }}</td>
                 </tr>
             </tbody>
         </table>
