@@ -1,5 +1,5 @@
 +++
-title = "Eggy Bread Test"
+title = "Eggy Bread"
 
 [extra]
 serves = "1"
