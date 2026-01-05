@@ -1,5 +1,5 @@
 +++
-title = "Eggy Bread"
+title = "Eggy Bread Test"
 
 [extra]
 serves = "1"
@@ -7,14 +7,7 @@ makes = "[2] slices"
 carbs = ""
 prep = "5 mins"
 cook = "15-20 mins"
-
-ingredients = """
-- [1] egg
-- [50]ml milk
-- Cinnamon
-- Sunflower Oil
-- [2] slices of bread
-"""
+ingredients = "- [1] egg\n- [50]ml milk\n- Cinnamon\n- Sunflower Oil\n- [2] slices of bread\n"
 +++
 
 1. Break egg into a wide bowl. Add the milk and a few good shakes of cinnamon
