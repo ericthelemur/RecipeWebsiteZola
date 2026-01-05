@@ -9,7 +9,7 @@
     {% for parent in page.ancestors %}
     {% if not loop.first %} <!-- Ignore first -->
     {% set s = get_section(path=parent, include_pages=false) %}
-    <a href="{{ get_url(path=parent) }}">{{ s.title | truncate(length=25) }}</a> /
+    <a href="{{ s.permalink }}">{{ s.title | truncate(length=25) }}</a> /
     {% endif %}
     {% endfor %}
     <!-- Include actual page -->
